@@ -15,7 +15,7 @@ class TestReader(unittest.TestCase):
 
     def test_get_unused_role_permissions(self):
         roles = self.reader.get_roles()
-        unused = self.reader.get_unused_role_permissions(roles[0])
+        unused = self.reader.get_unused_role_permissions(roles[1])
         self.assertIsNotNone(roles)
         self.assertIsNotNone(unused)
 

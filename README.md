@@ -13,5 +13,5 @@ pip install iamunused
 Run iamunused:
 
 ```
-iamunused
+python -m iamunused
 ```
