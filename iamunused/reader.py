@@ -41,8 +41,9 @@ class Reader(object):
             if 'LastAuthenticated' in service:
                 unused.append(service['ServiceName'])
         
-        print(f'\"{role["RoleName"]}\": {unused}')
-        return unused
+        if unused:
+            print(f'\"{role["RoleName"]}\": {unused}')
+            return unused
 
     def __exit__(self):
         self.iam.close()
