@@ -12,7 +12,7 @@ Scan and remediate unused permissions within IAM Policies
 ### Installation
 
 ```sh
-pip install iamunused
+pip3 install iamunused
 ```
 
 ### Upgrade
