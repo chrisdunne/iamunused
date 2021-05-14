@@ -4,14 +4,26 @@
 # iamunused
 Scan and remediate unused permissions within IAM Policies
 
-Install package:
+## Getting started
 
-```
+### Requrirements
+ * AWS CLI version 2
+
+### Installation
+
+```sh
 pip install iamunused
 ```
 
-Run iamunused:
+### Upgrade
 
+```sh
+pip3 install -U iamunused
 ```
+
+
+### Scan
+
+```sh
 python -m iamunused
 ```
