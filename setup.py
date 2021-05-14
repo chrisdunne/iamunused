@@ -6,7 +6,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="iamunused",
-    version="0.2.0",
+    version="0.2.7",
     description="Scan and remediate unused permissions within IAM Policies",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -21,7 +21,7 @@ setup(
     ],
     packages=["iamunused"],
     include_package_data=True,
-    install_requires=["boto3", "time"],
+    install_requires=["boto3"],
     entry_points={
         "console_scripts": [
             "iamunused=iamunused.__main__:main",
