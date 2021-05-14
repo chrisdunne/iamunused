@@ -1,8 +1,9 @@
 # __main__.py
-from iamunused import reader
+from .reader import Reader
 
 def main():
-    reader.get_unused()
+    r = Reader("role", 0)
+    r.get_unused()
 
 if __name__ == "__main__":
     main()
