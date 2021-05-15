@@ -6,7 +6,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="iamunused",
-    version="0.2.8",
+    version="0.2.9",
     description="Scan and remediate unused permissions within IAM Policies",
     long_description=README,
     long_description_content_type="text/markdown",

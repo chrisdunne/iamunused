@@ -38,7 +38,7 @@ class Reader(object):
             )
 
         for service in services['ServicesLastAccessed']:
-            if 'LastAuthenticated' in service:
+            if 'LastAuthenticated' not in service:
                 unused.append(service['ServiceName'])
         
         if unused:
